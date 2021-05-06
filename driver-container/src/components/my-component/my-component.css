@@ -1,0 +1,47 @@
+:host {
+  display: block;
+}
+
+.container{
+ 
+  border-radius: 23px;
+  height: 340px;
+  width: 60%;
+  margin-left: 65%;
+ 
+}
+
+.dc-header {
+  background-color: #61a210;
+
+  border-radius: 20px 20px 0px 0px;
+  color: #ffffff;
+  height: 25px;
+}
+
+
+h4{
+  padding-top: 3px;
+}
+
+.dc-body{
+  color: #61a210;
+ 
+  border:1px solid  #06b70b;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  line-height: 10pt;
+}
+
+.dc-container{
+  text-align: center;
+}
+
+.cd-img{
+  padding-top: 15px;
+}
+
+
+.data{
+  color: gray;
+}

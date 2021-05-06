@@ -1,0 +1,57 @@
+:host {
+  display: block;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+ 
+}
+
+.dr-btn{
+ 
+	border:1px solid #61A210;
+  background-color: #61A210;
+  color:#ffffff;
+
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+
+	padding:7px 20px;
+  border-radius:7px;
+  display:inline-block;
+}
+
+
+
+.dropdown {
+  float:right;
+  position: relative;
+  display: block;
+  right:14%;
+}
+.dropdown:hover .dr-btn {
+  background-color: #4f860c;
+}
+.dropdown:hover .show-data {
+  display: block;
+}
+
+
+.show-data {
+  display:none;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+  background-color: #ffffff;
+  min-width: 200px;
+  box-shadow: 0px 2px 25px 1px #3b5718;
+  
+}
+
+
+
+
+
+
